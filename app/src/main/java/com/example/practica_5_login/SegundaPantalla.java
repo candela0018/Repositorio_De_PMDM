@@ -36,13 +36,7 @@ public class SegundaPantalla extends AppCompatActivity {
 
             finish(); //Cierra la actividad actual para regresar a la primera pantalla
 
-            // Opcional: Puedes enviar el correo de vuelta a la MainActivity si quieres que se mantenga en el login
-            /*
-            Intent returnIntent = new Intent();
-            returnIntent.putExtra("correousuario", correo);
-            setResult(RESULT_OK, returnIntent);
-            finish();
-            */
+
         });
     }
 }
