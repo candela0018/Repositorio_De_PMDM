@@ -21,7 +21,7 @@ public class SegundaPantalla extends AppCompatActivity {
         etCorreoUsuario = findViewById(R.id.etCorreoUsuario);
         btnSegundaPantalla = findViewById(R.id.btnSegundaPantalla);
 
-        // Recuperar el correo enviado desde MainActivity
+        //Recuperar el correo que se escribio en el campo del MainActivity
         Intent intent = getIntent();
         String correo = intent.getStringExtra("correousuario");
 
